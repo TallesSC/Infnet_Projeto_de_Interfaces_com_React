@@ -1,0 +1,27 @@
+@import '../../styles/variables';
+
+.navbar {
+  background: $color-navbar;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+
+  .container {
+    display: flex;
+  }
+
+  .logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+
+    img {
+      width: 80px;
+      object-fit: contain;
+    }
+
+    .text {
+      font-size: 1.625rem;
+      color: $color-blue-500;
+    }
+  }
+}

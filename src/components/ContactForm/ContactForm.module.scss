@@ -1,0 +1,29 @@
+@import '../../styles/variables';
+
+.wrapper {
+  padding: 1rem;
+  background: $color-card;
+
+  .title {
+    color: $color-text;
+    border-bottom: 1px solid $color-separator;
+  }
+
+  .subtitle {
+    color: $color-text-paragraph;
+    opacity: 0.9;
+  }
+
+  .row {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .label {
+    width: 100%;
+  }
+
+  .submitButton {
+    margin-top: 1rem;
+  }
+}

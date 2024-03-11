@@ -1,0 +1,15 @@
+.layout {
+  padding-block: 2rem;
+
+  .content {
+    display: flex;
+    border-radius: 16px;
+    overflow: hidden;
+
+    .image {
+      overflow: hidden;
+      max-width: 60%;
+    }
+  }
+
+}
